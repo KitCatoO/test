@@ -10,13 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- Бутстрап -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/util/bootstrap.min.css" rel="stylesheet">
 
   <!-- Swiper -->
-  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/util/swiper-bundle.min.css" />
 
 
-  <link rel="stylesheet" href="css/main-page.css">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/pages/main-page.css">
   <title>Title</title>
 </head>
 <body>
@@ -63,19 +64,19 @@
           <nav class="header-menu">
             <ul class="nav nav-underline">
               <li class="nav-item">
-                <a class="nav-link" href="#">Главная</a>
+                <a class="nav-link active" href="#">Главная</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Отель</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Кафе</a>
+                <a class="nav-link" href="templates/cage-page.html">Кафе</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Автомастерская</a>
+                <a class="nav-link" href="templates/workshop-page.html">Автомастерская</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Контакты</a>
+                <a class="nav-link" href="templates/contacts-page.html">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -105,13 +106,13 @@
                   <a class="nav-link" href="#">Отель</a>
                 </li>
                 <li class="nav-item menu-item">
-                  <a class="nav-link" href="#">Кафе</a>
+                  <a class="nav-link" href="templates/cage-page.html">Кафе</a>
                 </li>
                 <li class="nav-item menu-item">
-                  <a class="nav-link" href="#">Автомастерская</a>
+                  <a class="nav-link" href="templates/workshop-page.html">Автомастерская</a>
                 </li>
                 <li class="nav-item menu-item">
-                  <a class="nav-link" href="#">Контакты</a>
+                  <a class="nav-link" href="templates/contacts-page.html">Контакты</a>
                 </li>
               </ul>
             </div>
@@ -126,7 +127,7 @@
       <div class="swiper swiper-main-img">
         <div class="swiper-wrapper">
 
-          <div class="swiper-slide" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url('img/img_1_1.jpg')">
+          <div class="swiper-slide" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url('img/main-page/img_1_1.jpg')">
             <div class="first-section-info container">
               <div class="row">
                 <div class="col-sm-12 col-md-10 col-lg-7 first-section-info-content">
@@ -161,7 +162,7 @@
             </div>
           </div>
 
-          <div class="swiper-slide" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url('img/img_1_2.jpg')">
+          <div class="swiper-slide" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url('img/main-page/img_1_2.jpg')">
             <div class="first-section-info container">
               <div class="row">
                 <div class="col-sm-12 col-md-10 col-lg-7 first-section-info-content">
@@ -200,7 +201,7 @@
             </div>
           </div>
 
-          <div class="swiper-slide" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url('img/img_1_3.jpg')">
+          <div class="swiper-slide" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)), url('img/main-page/img_1_3.jpg')">
             <div class="first-section-info container">
               <div class="row">
                 <div class="col-sm-12 col-md-10 col-lg-7 first-section-info-content">
@@ -239,9 +240,9 @@
 
       <div thumbsSlider="" class="swiper swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image: url('img/img_1_1.jpg')"></div>
-          <div class="swiper-slide" style="background-image: url('img/img_1_2.jpg')"></div>
-          <div class="swiper-slide" style="background-image: url('img/img_1_3.jpg')"></div>
+          <div class="swiper-slide" style="background-image: url('img/main-page/img_1_1.jpg')"></div>
+          <div class="swiper-slide" style="background-image: url('img/main-page/img_1_2.jpg')"></div>
+          <div class="swiper-slide" style="background-image: url('img/main-page/img_1_3.jpg')"></div>
         </div>
       </div>
     </div>
@@ -326,18 +327,18 @@
       <div class="third-section-carousel-container">
         <div class="swiper carousel">
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url('img/img_3_1.jpg')"></div>
-            <div class="swiper-slide" style="background-image: url('img/img_3_2.jpg')"></div>
-            <div class="swiper-slide" style="background-image: url('img/img_3_3.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('img/main-page/img_3_1.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('img/main-page/img_3_2.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('img/main-page/img_3_1.jpg')"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
         <div class="swiper revert-carousel">
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url('img/img_3_4.jpg')"></div>
-            <div class="swiper-slide" style="background-image: url('img/img_3_5.jpg')"></div>
-            <div class="swiper-slide" style="background-image: url('img/img_3_6.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('img/main-page/img_3_2.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('img/main-page/img_3_1.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('img/main-page/img_3_2.jpg')"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -607,7 +608,7 @@
         </div>
 
         <div class="sixth-section__image">
-          <img src="img/img_6.png">
+          <img src="img/main-page/img_6.png">
         </div>
       </div>
     </div>
@@ -736,19 +737,17 @@
         <span>Трак Центр Тамбов.</span>
         <a class="footer-text__link" href="#">Отель</a>
         <span> - </span>
-        <a class="footer-text__link" href="#">Кафе</a>
+        <a class="footer-text__link" href="templates/cage-page.html">Кафе</a>
         <span> - </span>
-        <a class="footer-text__link" href="#">Автомастерская.</a>
+        <a class="footer-text__link" href="templates/workshop-page.html">Автомастерская.</a>
       </div>
     </div>
   </div>
 </footer>
 
-<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-
 <!-- Initialize Swiper -->
-<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
-<script type="text/javascript" src="js/swipper-init.js"></script>
+<script type="text/javascript" src="js/util/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="js/pages/main-page.js"></script>
 
 </body>
 </html>
