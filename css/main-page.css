@@ -370,6 +370,7 @@ a {
   justify-content: center;
   align-items: center;
   z-index: 1;
+  cursor: pointer;
   background-color: rgba(0, 145, 32, 0.8);
 }
 
@@ -451,7 +452,6 @@ a {
 }
 .fifth-section-image svg {
   position: absolute;
-  transform: scale(-1, 1);
   bottom: 0;
   left: 0;
 }
@@ -459,6 +459,7 @@ a {
 .fifth-section-content {
   height: inherit;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .fifth-section-content .row {
   height: inherit;
@@ -663,9 +664,7 @@ a {
     font-size: 44px;
   }
   .first-section .swiper.swiper-container {
-    position: relative;
     padding-right: 6rem;
-    padding-top: 2rem;
   }
   .first-section .swiper.swiper-container .swiper-wrapper {
     display: flex;
@@ -744,6 +743,13 @@ a {
   }
   .third-section .third-section__background {
     display: none;
+  }
+  .fourth-section {
+    min-height: inherit;
+  }
+  .fourth-section .container {
+    padding-top: 0;
+    padding-bottom: 2rem;
   }
   .fourth-section .fourth-section-content-second-line {
     grid-template-columns: 0.33fr 0.33fr 0.33fr;
@@ -913,6 +919,7 @@ a {
   }
   .second-section .row {
     padding-left: 0;
+    padding-bottom: 2rem;
   }
   .second-section .second-section-info-list ul {
     grid-auto-flow: row;
@@ -941,7 +948,7 @@ a {
     padding-bottom: 1.5rem;
   }
   .fourth-section .container {
-    padding-top: 2rem;
+    padding-top: 0;
   }
   .fifth-section {
     min-height: 100%;
