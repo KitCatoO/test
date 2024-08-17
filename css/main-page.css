@@ -501,7 +501,7 @@ p {
   color: #F8F8F8;
   font-size: 20px;
   text-transform: uppercase;
-  width: 92%;
+  width: calc(100% - 40px);
   border-top: 1px solid;
   line-height: 24.38px;
   padding-top: 12px;
@@ -634,6 +634,7 @@ p {
 
 .seventh-section .section-info__button {
   width: fit-content;
+  margin-top: 30px;
 }
 
 .seventh-section__image {
@@ -652,6 +653,7 @@ p {
 .seventh-section-info-container {
   min-height: inherit;
   color: #F8F8F8;
+  padding-top: 8px;
 }
 
 .seventh-section-info-container .row {
@@ -735,13 +737,12 @@ p {
   background-color: #009120;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .footer .container {
-  margin-bottom: 16px;
-  margin-top: 16px;
+  padding: 15px 0;
 }
 
 .footer .footer-text {
@@ -817,6 +818,13 @@ p {
   .third-section .third-section-carousel-container .swiper-slide {
     width: 100%;
     height: 256px;
+  }
+  .fourth-section .fourth-section-info-text {
+    max-width: none;
+  }
+
+  .footer {
+    height: inherit;
   }
   .fourth-section .fourth-section-info-text {
     max-width: none;
@@ -1117,6 +1125,9 @@ p {
   .fourth-section .container {
     padding-top: 0;
   }
+  .fourth-section a.section-button-with-icon {
+    font-size: 9px;
+  }
   .fifth-section {
     min-height: 100%;
   }
@@ -1167,6 +1178,13 @@ p {
   .seventh-section .section-info__button {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+  }
+  .seventh-section a.section-button-with-icon {
+    font-size: 12px;
+  }
+  .footer {
+    height: inherit;
   }
   .footer .footer-text {
     padding-right: 0;
